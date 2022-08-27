@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+
+
+
+
+#name{
+    margin-right: 20vw;
+    margin-left: 5%;
+}
+#name:hover{
+    text-shadow: 1px 1px 5px rgb(0, 255, 13);
+}
+#nav1{
+    border-bottom: 2px solid black;
+}
+@media screen and (min-width:319px) and (max-width:991px) {
+    #name{
+        margin-right: 0px;
+        margin-left: 3pc;
+    }
+}
+@media screen and (max-width:918px) {
+    #name{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+
+/*-- ============================
+        NAVBAR END.
+================================ */
+
+
+
+
+/*-- ============================
+        SECTION START.
+================================ */
+#background-row{
+    z-index: -1;
+}
+#body-image{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+
+#text-row{
+    top: 25vh;
+    left: 25vw;
+    width: 60%;
+}
+#text-row h1{
+    font-size: 10vh;
+}
+#text-row p{
+    font-size: 2.5vh;
+    margin-top: 3%;
+}
+
+@media screen and (min-width:701px)and (max-width:863px) {
+    #text-row{
+        top: 25vh;
+        left: 20vw;
+        width: 70%;
+    }
+    #text-row h1{
+        font-size: 10vh;
+    }
+    #text-row p{
+        font-size: 2.5vh;
+    }
+}
+@media screen and (min-width:400px)and (max-width:700px) {
+    #text-row{
+        top: 17vh;
+        left: 15vw;
+        width: 80%;
+    }
+    #text-row h1{
+        font-size: 8vh;
+    }
+    #text-row p{
+        font-size: 2.5vh;
+    }
+}
+
+@media screen and (min-width:90px)and (max-width:400px) {
+    #text-row{
+        top: 15vh;
+        left: 10vw;
+        width: 90%;
+    }
+    #text-row h1{
+        font-size: 7vh;
+    }
+    #text-row p{
+        font-size: 2.2vh;
+        margin-top: 10%;
+        overflow: hidden;
+    }
+}
